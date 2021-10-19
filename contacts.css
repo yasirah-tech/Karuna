@@ -77,7 +77,12 @@ main {
   line-height: 40px;
   /*margin: 0 auto;*/
 }
-
+body{
+    border:10px solid black;
+    width:1500px;
+    height:900px;
+    margin:auto;
+}
 
 div {
     background-color:black;
