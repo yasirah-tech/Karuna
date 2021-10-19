@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <header>
-        <link href="contacts.css"rel="stylesheet"type="text/css"/>
-    </header>
     <head>
-        <body>
-        <ul>
-  <li><a href="Home.html">Home</a></li>
-  <li><a href="About.html">About</a></li>
-  <li><a href="Media.html">Media</a></li>
-  <li><a href="contacts.html">Contacts</a></li>
-</ul>
-<div>
-    <h1 id="Logo"> LOGO </h1>
-</div>
- <p> This is contact page homie</p>
- 
- </body>
- </head>
+        <link href="contacts.css"rel="stylesheet"type="text/css"/>
+        <title>CONTACT</title>
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <h1> LOGO </h1>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Media.html">Media</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="response-box">
+                <form action="https://www.nrcdv.org/contact-us" method="POST">
+                    <label for="edit-name"><h3>Your name</h3></label>
+                    <input id="edit-name" name="name" type="text" placeholder="Enter your name" required/>
+                    <br>
+                    <label for="edit-mail"><h3>Your email</h3></label>
+                    <input id="edit-mail" name="email" type="text" placeholder="Enter your email" required/>
+                    <br>
+                    <label for="edit-subject-wrapper"><h3>Subject</h3></label>
+                    <input id="edit-subject-wrapper" name="subject" type="text" required/>
+                    <br>
+                    <label for="edit-message-wrapper"><h3>Message</h3></label>
+                    <textarea id="edit-message-wrapper" name="message" rows="5" columns="30" required>Type your message here</textarea>
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </main>
+    </body>
