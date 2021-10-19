@@ -90,5 +90,10 @@ div {
     color:white;
     font-size:20px;
     border:10px solid black;
+    height:auto;
     
+}
+main {
+  width:1500px;
+    height:900px;
 }
