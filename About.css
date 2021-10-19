@@ -1,3 +1,145 @@
+.section-3{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    padding-top: 0px;
+    background-color: black;
+    height:100%;
+    width:100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 3px solid yellow;
+    align-content:flex-end;
+}
+
+
+
+
+.text-1{
+  display:flex;
+  align-content: flex-end;
+  flex-direction:column;
+  background-color: midnightblue;
+  color:white;
+  text-align:center;
+  box-shadow: 10px 10px 5px grey;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
+  border:2px solid #fff;
+  margin-left:100px;
+  margin-right:100px;
+  padding-top: 0px;
+}
+
+.words{
+  display:flex;
+  flex-direction:row;
+  width:200px;
+}
+
+.text-2{
+ display:flex;
+  align-content: flex-end;
+  flex-direction:column;
+  background-color: midnightblue;
+  color:white;
+  text-align:center;
+  box-shadow: 10px 10px 5px grey;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
+  border:2px solid #fff;
+  margin-left:100px;
+  margin-right:100px;
+}
+
+.text-3{
+  display:flex;
+  align-content: flex-end;
+  flex-direction:column;
+  background-color: midnightblue;
+  color:white;
+  text-align:center;
+  box-shadow: 10px 10px 5px grey;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
+  border:2px solid #fff;
+  margin-left:100px;
+  margin-right:100px;
+  padding-bottom:0px;
+}
+
+
+.damon{
+  margin-top:10px;
+  display:flex;
+  justify-content:center;
+}
+
+.yasirah{
+  margin-top:10px;
+  display:flex;
+  justify-content:center;
+}
+
+
+.GP{
+  margin-top:10px;
+  display:flex;
+  justify-content:center;
+
+}
+
+.box-1{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.box-2{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.box-3{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.icon-1{
+    padding-left: 25px;
+    padding-right: 75px;
+    color: orange;
+    font-size:13px;
+}
+.icon-2{
+    padding-left: 25px;
+    padding-right: 55px;
+    color: orange;
+    font-size:13px;
+}
+.icon-3{
+    padding-left: 25px;
+    padding-right: 55px;
+    color: orange;
+    font-size:13px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  border:2px solid #fff;
+  background: url(img/tiger.png) no-repeat;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px grey;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
+}
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -7,7 +149,11 @@
 }
 
 body {
+  display:flex;
+  flex-direction:column;
   font-family: sans-serif;
+  background-color: black;
+  background-color:black;
 }
 
 ul {
@@ -24,7 +170,7 @@ ul li a {
   position: relative;
   display: block;
   text-transform: uppercase;
-  margin: 20px 0;
+  margin: 0px 0px;
   padding: 10px 20px;
   text-decoration: none;
   color: white;
