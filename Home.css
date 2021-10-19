@@ -8,6 +8,7 @@
 
 body {
   font-family: sans-serif;
+  border: 10px #000814;
 }
 
 ul {
@@ -105,7 +106,7 @@ h1 {
   left:400px;
 }
 .Faders {
-  width:600px;
+  width:680px;
   height:400px;
   top:154px;
   position:absolute;
@@ -113,12 +114,12 @@ h1 {
 
 }
 .Faders4 {
-  width:600px;
+  width:680px;
   height:400px;
   top:154px;
   position:absolute;
   left:220px;
-  animation:fade 45s;
+  animation:fade 30s;
 }
 
 @keyframes fade {
@@ -128,7 +129,7 @@ h1 {
   45%{opacity:0}
   60%{opacity:0}
   80%{opacity:1}
-  100% {opacity:1}
+  100% {opacity:0}
 }
 .We-Are-Here{
   position:absolute;
@@ -156,7 +157,7 @@ h1 {
   top:0px;
   left:218px;
   width:1500px;
-  height:153px;
+  height:1303px;
   background-color:#001D3D;
 }
 #color {
@@ -176,6 +177,70 @@ h1 {
  width:1200px;
  height:400px;
  left:-80px;
- top:650px;
+ top:620px;
  color:white;
+}
+.data2 {
+  position:absolute;
+  top:554px;
+  left:1000px;
+  width:500px;
+  height:200px;
+
+}
+.Data4 {
+  position:absolute;
+  font-size:18px;
+ width:1200px;
+ height:400px;
+ left:680px;
+ top:630px;
+ color:white;
+}
+.Statistics {
+   position:absolute;
+  color:yellow;
+  font-size:50px;
+  left:920px;
+  top:480px;
+}
+.data3 {
+   position:absolute;
+  top:900px;
+  left:220px;
+  width:500px;
+  height:200px;
+}
+.Description {
+    position:absolute;
+  font-size:18px;
+ width:1200px;
+ height:400px;
+ left:-80px;
+ top:980px;
+ color:white;
+}
+.data4 {
+     position:absolute;
+  top:900px;
+  left:1000px;
+  width:500px;
+  height:200px;
+}
+.Description2 {
+     position:absolute;
+  font-size:16px;
+ width:1200px;
+ height:400px;
+ left:680px;
+ top:980px;
+ color:white;
+}
+.Another-Blue-Box{
+   position:absolute;
+  top:153px;
+  left:900px;
+  width:818px;
+  height:90px;
+  background-color:#001D3D;
 }
