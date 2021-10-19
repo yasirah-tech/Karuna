@@ -73,16 +73,16 @@ ul li a:hover:after {
 }
 ul li a {
     color:#D3D4D9;
-    top:-450px;
+    top:-430px;
     right:-400px;
 }
 
 body{
-    background-color:white;
-    border:10px solid black;
+    background-color:black;
     width:1500px;
     height:900px;
     margin:auto;
+    
 }
 
 div {
@@ -91,4 +91,91 @@ div {
     font-size:20px;
     border:10px solid black;
     
+}
+img{
+  width:100px;
+  height:100px;
+  
+}
+h1 {
+  color:blue;
+  text-align:center;
+  position:absolute;
+  top:30px;
+  left:400px;
+}
+.Faders {
+  width:600px;
+  height:400px;
+  top:154px;
+  position:absolute;
+  left:220px;
+
+}
+.Faders4 {
+  width:600px;
+  height:400px;
+  top:154px;
+  position:absolute;
+  left:220px;
+  animation:fade 45s;
+}
+
+@keyframes fade {
+  0% {opacity:0}
+  15%{opacity:1}
+  30%{opacity:1}
+  45%{opacity:0}
+  60%{opacity:0}
+  80%{opacity:1}
+  100% {opacity:1}
+}
+.We-Are-Here{
+  position:absolute;
+  color:yellow;
+  font-size:50px;
+  left:920px;
+  top:180px;
+}
+#info {
+  position:absolute;
+  color:white;
+  font-size:20px;
+ width:620px;
+ height:300px;
+ left:920px;
+ top:250px;
+}
+.logo {
+  background-color:#001D3D;
+  position:absolute;
+  left:220px;
+}
+.Blue-Box {
+  position:absolute;
+  top:0px;
+  left:218px;
+  width:1500px;
+  height:153px;
+  background-color:#001D3D;
+}
+#color {
+  color: #D3D4D9;
+}
+.data {
+  position:absolute;
+  top:554px;
+  left:220px;
+  width:500px;
+  height:200px;
+}
+.Data2 {
+  position:absolute;
+  color:white;
+  font-size:20px;
+ width:1200px;
+ height:400px;
+ left:-80px;
+ top:650px;
+ color:white;
 }
