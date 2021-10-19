@@ -157,7 +157,7 @@ h1 {
   top:0px;
   left:218px;
   width:1500px;
-  height:1303px;
+  height:1703px;
   background-color:#001D3D;
 }
 #color {
@@ -243,4 +243,11 @@ h1 {
   width:818px;
   height:90px;
   background-color:#001D3D;
+}
+.Victims {
+    position:absolute;
+  color:yellow;
+  font-size:50px;
+  left:590px;
+  top:1250px;
 }
