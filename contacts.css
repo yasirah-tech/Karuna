@@ -1,21 +1,39 @@
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  flex-grow: 1;
+  margin-left: 100px;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.navbar {
+  flex-grow: 1;
 }
 
 ul {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   display: flex;
+  justify-content: space-evenly;
 }
 ul li {
   list-style: none;
@@ -41,8 +59,8 @@ ul li a:before {
   left: 0;
   width: 100%;
   height: 100%;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
+  border-top: 2px solid yellow;
+  border-bottom: 2px solid yellow;
   transform: scaleY(2);
   opacity: 0;
   transition: 0.3s;
@@ -54,14 +72,14 @@ ul li a:after {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color:#D3D4D9;
+  background-color: grey;
   transform: scale(0);
   opacity: 0;
   transition: 0.3s;
   z-index: -1;
 }
 ul li a:hover {
-  color: blue;
+  color: #fff;
 }
 ul li a:hover:before {
   transform: scaleY(1);
@@ -71,24 +89,66 @@ ul li a:hover:after {
   transform: scaleY(1);
   opacity: 1;
 }
-ul li a {
-    color:#D3D4D9;
-    top:-450px;
-    right:-400px;
+
+main {
+  padding: 50px 50px;
+  display: flex;
+  width:80%;
+  height: auto;
+  margin: auto;
+  justify-content: space-evenly;
 }
 
-body{
-    background-color:white;
-    border:10px solid black;
-    width:1500px;
-    height:900px;
-    margin:auto;
+form {
+  color: black;
+  padding: 20px 50px;
+  align-items:flex-start;
+  width: auto;
+  height: auto;
+  background-color: #ffd60a;
+  border-radius: 10px;
+  box-shadow: 20px 20px 0px grey;
+  /*line-height: 40px;*/
+  /*margin: 0 auto;*/
 }
 
-div {
-    background-color:black;
-    color:white;
-    font-size:20px;
-    border:10px solid black;
-    
+label {
+  padding: 10px;
+}
+
+input, textarea {
+  height: 50px;
+  width: 40%;
+  font-size: 16px;
+  box-shadow: 5px 5px 0 black;
+}
+
+input:hover, textarea:hover {
+  background-color: #003566;
+  color: #d3d4d9;
+}
+
+textarea {
+  width: 400px;
+  height: 150px;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 2px solid #ffd60a;
+  align-items: center;
+  padding: 20px 50px;
 }
