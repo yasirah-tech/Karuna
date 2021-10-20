@@ -1,82 +1,214 @@
+
 .section-3{
     display:flex;
     flex-direction: column;
     justify-content:center;
     padding-top: 0px;
-    background-color: black;
+    background-color: yellow;
     height:100%;
     width:100%;
     padding-left: 100px;
     padding-right: 100px;
-    border: 3px solid yellow;
+    border: 3px solid black;
     align-content:flex-end;
+    max-height: 100%;
+    max-height: 100%;
 }
 
 
 
 
 .text-1{
+  padding-left: 5%;
+  padding-right: 5%;
   display:flex;
   align-content: flex-end;
   flex-direction:column;
-  background-color: midnightblue;
+  background-color: black;
   color:white;
   text-align:center;
   box-shadow: 10px 10px 5px grey;
-  -moz-border-radius:25px;
-  -webkit-border-radius:25px;
-  border-radius:25px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius:5px;
   border:2px solid #fff;
   margin-left:100px;
   margin-right:100px;
   padding-top: 0px;
+  height:230px;
+  font-family: roboto;
+  line-height: 25px;
 }
-
-.words{
-  display:flex;
-  flex-direction:row;
-  width:200px;
+h3{
+  font-family: roboto;
 }
 
 .text-2{
- display:flex;
-  align-content: flex-end;
-  flex-direction:column;
-  background-color: midnightblue;
-  color:white;
-  text-align:center;
-  box-shadow: 10px 10px 5px grey;
-  -moz-border-radius:25px;
-  -webkit-border-radius:25px;
-  border-radius:25px;
-  border:2px solid #fff;
-  margin-left:100px;
-  margin-right:100px;
-}
-
-.text-3{
+  padding-left: 5%;
+  padding-right: 5%;
   display:flex;
   align-content: flex-end;
   flex-direction:column;
-  background-color: midnightblue;
+  background-color: black;
   color:white;
   text-align:center;
   box-shadow: 10px 10px 5px grey;
-  -moz-border-radius:25px;
-  -webkit-border-radius:25px;
-  border-radius:25px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius:5px;
   border:2px solid #fff;
   margin-left:100px;
   margin-right:100px;
-  padding-bottom:0px;
+  padding-top: 0px;
+  height:230px;
+  font-family: roboto;
+  line-height: 25px;
+
+
+  /*animation-name            : shake;*/
+  /*animation-duration        : 1s;*/
+  /*animation-delay           : 4s;*/
+  /*animation-iteration-count : 1;*/
+  /*animation-fill-mode       : forwards;*/
 }
 
+
+
+
+
+
+
+.text-3{
+  padding-left: 5%;
+  padding-right: 5%;
+  display:flex;
+  align-content: flex-end;
+  flex-direction:column;
+  background-color: black;
+  color:white;
+  text-align:center;
+  box-shadow: 10px 10px 5px grey;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius:5px;
+  border:2px solid #fff;
+  margin-left:100px;
+  margin-right:100px;
+  padding-top: 0px;
+  height:230px;
+  font-family: roboto;
+  line-height: 25px;
+}
+
+.rocks{
+  display: flex;
+  flex-direction:column;
+}
 
 .damon{
   margin-top:10px;
   display:flex;
   justify-content:center;
+  
 }
+
+
+.text-1:hover{
+  
+  transform:scale(1.3);
+  background-color:whitesmoke;
+  color:#2e3c43;
+  box-shadow: 2px 2px 2px grey;
+  z-index:2;
+  border-radius:25px;
+  border:4px solid black;
+  margin-left:100px;
+  margin-right:100px;
+  padding-bottom:0px;
+  font-weight: bold;
+  animation: move 0.3s;
+}
+  @keyframes move {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+.text-2:hover{
+  transform:scale(1.3);
+  background-color:whitesmoke;
+  color:#2e3c43;
+  box-shadow: 2px 2px 2px grey;
+  z-index:2;
+  border-radius:25px;
+  border:4px solid black;
+  margin-left:100px;
+  margin-right:100px;
+  padding-bottom:0px;
+  font-weight:bold;
+  /*margin-left:100px;*/
+  /*margin-right:100px;*/
+  /*padding-bottom:0px;*/
+  animation: move 0.3s;
+  }
+    @keyframes move {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+
+
+.text-3:hover{
+  transform:scale(1.3);
+  background-color:whitesmoke;
+  color:#2e3c43;
+  box-shadow: 2px 2px 2px grey;
+  z-index:2;
+  border-radius:25px;
+  border:4px solid black;
+  margin-left:100px;
+  margin-right:100px;
+  padding-bottom:0px;
+  font-weight:bold;
+  /*margin-left:100px;*/
+  /*margin-right:100px;*/
+  /*padding-bottom:0px;*/
+  animation: move 0.3s;
+}
+  @keyframes move {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
 
 .yasirah{
   margin-top:10px;
@@ -93,19 +225,26 @@
 }
 
 .box-1{
+    background-color: yellow;
     display: flex;
     flex-direction: row;
     justify-content:center;
+    border:0px;
 }
 .box-2{
+    background-color: yellow;
     display: flex;
     flex-direction: row;
     justify-content:center;
+    border:0px;
+ 
 }
 .box-3{
+    background-color: yellow;
     display: flex;
     flex-direction: row;
     justify-content:center;
+     border:0px;
 }
 
 .icon-1{
@@ -130,7 +269,7 @@
 img{
   width: 200px;
   height: 200px;
-  border:2px solid #fff;
+  border:2px solid white;
   background: url(img/tiger.png) no-repeat;
   -moz-box-shadow: 10px 10px 5px #ccc;
   -webkit-box-shadow: 10px 10px 5px #ccc;
@@ -138,8 +277,45 @@ img{
   -moz-border-radius:25px;
   -webkit-border-radius:25px;
   border-radius:25px;
+  
 }
 
+img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.img-1{
+  border:0px;
+  background-color: yellow;
+}
+
+.img-2{
+    border:0px;
+  background-color: yellow;
+}
+
+.img-3{
+    border:0px;
+  background-color: yellow;
+}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
