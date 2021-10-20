@@ -6,8 +6,8 @@
     </head>
     <body>
         <header>
-            <div id="logo">
-                <h1> LOGO </h1>
+            <div class="logo">
+                <img src="logo(maybe).png"/>
             </div>
             <div class="navbar">
                 <ul>
@@ -19,23 +19,27 @@
             </div>
         </header>
         <main>
-            <div class="response-box">
-                <form action="https://www.nrcdv.org/contact-us" method="POST">
-                    <label for="edit-name"><h3>Your name</h3></label>
-                    <input id="edit-name" name="name" type="text" placeholder="Enter your name" required/>
-                    <br>
-                    <label for="edit-mail"><h3>Your email</h3></label>
-                    <input id="edit-mail" name="email" type="text" placeholder="Enter your email" required/>
-                    <br>
-                    <label for="edit-subject-wrapper"><h3>Subject</h3></label>
-                    <input id="edit-subject-wrapper" name="subject" type="text" required/>
-                    <br>
-                    <label for="edit-message-wrapper"><h3>Message</h3></label>
-                    <textarea id="edit-message-wrapper" name="message" rows="5" columns="30" required>Type your message here</textarea>
-                    <br>
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
+            <form action="https://www.nrcdv.org/contact-us" method="POST">
+                <label><h3>Your name</h3>
+                <input name="name" type="text" placeholder="Enter your name" required/></label>
+                <br>
+                <label><h3>Your email</h3>
+                <input name="email" type="text" placeholder="Enter your email" required/></label>
+                <br>
+                <label><h3>Subject</h3>
+                <input name="subject" type="text" placeholder="Enter the subject"required/></label>
+                <br>
+                <label><h3>Message</h3>
+                <textarea name="message" rows="10" cols="50" required>Type your message here</textarea></label>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+            <section class="links">
+                <h1>USEFUL LINKS</h1>
+                <a href="https://www.thehotline.org/" target="_blank"><img src="logondvh.jpg"/></a>
+                <a href="https://www.nyscadv.org/" target="_blank"><img src="NYSCADV.png"/></a>
+                <a href="https://www.nywf.org/" target="_blank"><img src="nywflogo.png"/></a>
+            </section>
         </main>
     </body>
 </html>
