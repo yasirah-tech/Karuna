@@ -150,9 +150,10 @@ h1 {
 .logo {
   background-color:#001D3D;
   position:absolute;
-  left:220px;
+  left:280px;
 }
 .Blue-Box {
+  border-radius:100px;
   position:absolute;
   top:0px;
   left:218px;
@@ -237,6 +238,7 @@ h1 {
  color:white;
 }
 .Another-Blue-Box{
+  border-radius:100px;
    position:absolute;
   top:153px;
   left:900px;
@@ -250,4 +252,134 @@ h1 {
   font-size:50px;
   left:590px;
   top:1250px;
+}
+
+.StoryAnn {
+   position:absolute;
+  color:yellow;
+  font-size:30px;
+  left:1300px;
+  top:1530px;
+}
+.StorySydney {
+  position:absolute;
+  color:yellow;
+  font-size:30px;
+  left:290px;
+  top:1520px;
+}
+.StorySandrine {
+    position:absolute;
+  color:yellow;
+  font-size:30px;
+  left:790px;
+  top:1520px;
+}
+.Inst1 {
+  position:absolute;
+  color:yellow;
+  font-size:30px;
+  left:1300px;
+  top:1580px;
+}
+.Inst2 {
+  position:absolute;
+  color:yellow;
+  font-size:30px;
+  left:290px;
+  top:1570px;
+}
+.Inst3 {
+    position:absolute;
+  color:yellow;
+  font-size:30px;
+  left:790px;
+  top:1570px;
+}
+.creators {
+  position:absolute;
+  color:yellow;
+  font-size:20px;
+  left:270px;
+  top:1670px;
+}
+.We-Are-Here:hover{
+  color:green;
+}
+.Statistics:hover{
+  color:green;
+}
+.container {
+  background-color:red;
+  height:200px;
+  width:300px;
+  display:flex;
+}
+.image{
+  height:200px;
+  width:310px;
+  background:url(sydney.jpg);
+  background-size:100%;
+  background-position:center;
+  transition:1s;
+  cursor:zoom-in;
+  border:10px solid black;
+  top:1300px;
+}
+.container .image {
+  position:absolute;
+}
+.image:hover{
+  background-size:150%;
+  background-position:center;
+}
+.container1 {
+  background-color:red;
+  height:300px;
+  width:300px;
+  display:flex;
+}
+.image1{
+  height:200px;
+  width:300px;
+  background:url(Anna.jpg);
+  background-size:100%;
+  background-position:center;
+  transition:1s;
+  cursor:zoom-in;
+  border:10px solid black;
+  top:1300px;
+  left:1300px;
+}
+.container1 .image1 {
+  position:absolute;
+}
+.image1:hover{
+  background-size:150%;
+  background-position:center;
+}
+.container2 {
+  background-color:red;
+  height:300px;
+  width:300px;
+  display:flex;
+}
+.image2{
+  height:200px;
+  width:300px;
+  background:url(Sandrine.jpg);
+  background-size:100%;
+  background-position:center;
+  transition:1s;
+  cursor:zoom-in;
+  border:10px solid black;
+  top:1300px;
+  left:800px;
+}
+.container2 .image2 {
+  position:absolute;
+}
+.image2:hover{
+  background-size:150%;
+  background-position:center;
 }
