@@ -1,73 +1,138 @@
 <!DOCTYPE html>
-<html>
-    <header>
-        <link href="About.css"rel="stylesheet"type="text/css"/>
-        <link rel="stylesheet/less" type="text/css" href="about.less" />
-        <script src="less.js" type="text/javascript"></script>
-    </header>
-    <head>
-        <body>
-        <ul>
-  <li><a href="Home.html">Home</a></li>
-  <li><a href="About.html">About</a></li>
-  <li><a href="Media.html">Media</a></li>
-  <li><a href="contacts.html">Contacts</a></li>
-</ul>
-<div>
-    <h1 id="Logo"> LOGO </h1>
-</div>
-    <!--<div class="holder">-->
-    
-        <div class="section-3">
-         
-            <div class="box-1">
-                <div class="img-1"><img class="img" src="Damon.jpg"></div>
-                    
-                    <div class="text-1">
-                      <h3 class="damon">Damon Nunez</h3> 
-                          <article class="description">
-                          Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
-                      Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
-                      Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
-                      Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.  
-                          </article>
-                  </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--BOOTSTRAP CSS LINK-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--CUSTOM CSS LINK-->
+    <link rel="stylesheet" href="test.css">
+    <title>Home</title>
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark py- fixed-top">
+         <div class="container">
+             <!--<img class="logo" src="logo(maybe).png" alt="">-->
+             <a href="" class="navbar-brand mx-5"> KARUNA</a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                 <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navmenu">
+                 <ul class="navbar-nav ms-auto">
+                     <li class="nav-item">
+                         <a href="index.html" class="nav-link">Home</a>
+                     </li>
+                     <li class="nav-item">
+                         <a href="About.html" class="nav-link">About Us</a>
+                     </li>
+                     <li class="nav-item">
+                         <a href="Media.html" class="nav-link">Media</a>
+                     </li>
+                     <li class="nav-item">
+                         <a href="contacts.html" class="nav-link">Contact</a>
+                     </li>
+                 </ul>
+             </div>
+         </div>
+    </nav>
+    <!--TOP SECTION-->
+    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-3 text-center">
+        <div class="container">
+            <div class="d-md-flex align-items-center justify-content-between">
+                <div>
+                    <h1 class="text-warning">KARUNA</h1>
+                    <p class="lead mx-4"> "We are here for you because we strongly believe that if  victims of domestic violence relationships formed a larger community to support and protect themselves and other women, the confidence of abused individuals to will boost just by having the support from the community."
+                        <p class="subtitle justify-content-right"><span>- KARUNA</span></p>
+                <img class="img-fluid w-50 d-none d-md-block" src="first-image.jpg" alt="">
             </div>
-             <br>
-             
-              
-              <div class="box-2">
-                <div class="img-2 img"><img class="img" src="yaya.jpeg"></div>
-                
-                <div class="text-2">
-                
-                 <h3 class="damon">Yasirah Boyce</h3> 
-                          <article class="description">
-                          Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
-                      Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
-                      Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
-                      Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.  
-                          </article>
-                 </div>
-             </div><br>
-              
-              <div class="box-3">
-                <div class="img-3"><img class="img" src="GP.jpg"></div>
-                
-                <div class="text-3">
-                  <h3 class="GP">Gurupriyan Jayakaran</h3>
-                          <article class="description">
-                          Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
-                      Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
-                      Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
-                      Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.  
-                          </article>
-                 
-              </div>
         </div>
-    <!--</div>-->
- 
- </body>
- </head>
-
-
+    </section>
+    <!--STAT SECTION-->
+    <!--FIRST STAT-->
+    <section class="stat p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="GP.jpg" class="img-fluid">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Key Notes</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, odit?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SECOND STAT-->
+   <section class="stat p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="yaya.jpg" class="img-fluid">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Key Notes</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, odit?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--THIRD STAT-->
+    <section class="stat p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="Damon.jpg" class="img-fluid">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Key Notes</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, odit?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--STORIES-->
+    <section class="p-5 bg-secondary">
+        <h2 class="text-center text-white">Stories</h2>
+        <p class="lead text-center text-white mb-5">Some of the people who shared their stories</p>
+        <div class="row g-4">
+            <!--FIRST STORY-->
+            <div class="col-md-12 col-lg-4">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="GP.jpg" class="img-fluid mb-3">
+                        <h3 class="card-title mb-3">Gurupriyan Jayakaran</h3>
+                    </div>
+                </div>
+            </div>
+            <!--SECOND STORY-->
+             <div class="col-md-12 col-lg-4">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="yaya.jpg" class="img-fluid mb-3">
+                        <h3 class="card-title mb-3">Yasirah Boyce</h3>
+                    </div>
+                </div>
+            </div>
+            <!--THIRD STORY-->
+            <div class="col-md-12 col-lg-4">
+                <div class="card bg-light">
+                    <div class="card-body span3 text-center">
+                        <img src="Damon.jpg" class=" img-fluid mb-3">
+                        <h3 class="card-title mb-3">Damon Nunez</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FOOTER-->
+    <footer class="p-5 bg-dark text-light text-center">
+        <div class="container">
+            <p>Created by:<br> Damon Nunez <br>Gurupriyan Jayakan <br>Yasirah Boyce</p>
+        </div>
+    </footer>
+    <!--JAVASCRIPT LINK-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
